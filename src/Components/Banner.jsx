@@ -4,8 +4,8 @@ import Argentina from "../assets/Argentina.jpeg";
 import Camino from "../assets/camino3.jpg";
 import energia from "../assets/windmills-5767549.jpg";
 import Molinos1 from "../assets/molino camino.jpg";
-import MolinosGira from "../assets/sunflowers-1853323_1920.jpg";
-import MolinosGira2 from "../assets/IMG_0873.png";
+import MolinosGira from "../assets/sunflowers-1853323_19202.jpg";
+// import MolinosGira2 from "../assets/IMG_0873.png";
 import Logo from "../assets/ECO GLOBAL_COLOR.png";
 export const Banner = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -46,7 +46,7 @@ export const Banner = () => {
             // paddingLeft:"10vw"
           }}
         >
-                    <Image src={Logo} style={{width:"21vw", position:"sticky"}} />
+          <Image src={Logo} style={{ width: "23vw", position: "sticky" }} />
           {/* <div style={{ marginBottom: "0.1rem" }}>
             <span style={{ color: "#BFD247", fontSize: "4rem" }}>eco</span>
             <span style={{ color: "#1B5147", fontSize: "4rem" }}>global</span>
@@ -56,12 +56,15 @@ export const Banner = () => {
               Soluciones ambientales
             </span>
           </div> */}
-
         </div>
       </Container>
 
       {/* Imagen */}
-      <Image src={MolinosGira2} fluid style={{width:"100vw", maxHeight:"100vh"}} />
+      <Image
+        src={MolinosGira}
+        fluid
+        style={{ width: "100vw", maxHeight: "100vh" }}
+      />
     </div>
   );
 };
