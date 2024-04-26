@@ -1,0 +1,37 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+#root {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.verdeOscuro{
+  color:#1B5147
+}
+
+.verdeIntermedio{
+  color:#27864D
+}
+
+.verdeClaro{
+  color: #67B977;
+}
+
+.verdeManzana{
+  color: #BFD247
+}
+
+.gris{
+  color:#878787
+}
+
+.text-container {
+  text-align: center;
+  margin-top: 20px; /* Ajusta el espacio superior según necesites */
+}
+
+.main-text {
+  font-size: 1.5rem;
+  line-height: 1.6; /* Espaciado entre líneas */
+}
