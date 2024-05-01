@@ -9,8 +9,8 @@ export const Header = () => {
             <Nav.Item>
               <Nav.Link eventKey="disabled" disabled>
                 <div style={{ marginBottom: "0.1rem" }}>
-                  <span style={{ color: "#BFD247", fontSize: "4rem" }}>eco</span>
-                  <span style={{ color: "#1B5147", fontSize: "4rem" }}>global</span>
+                  <span style={{ color: "#BFD247", fontSize: "4rem", fontWeight:600 }}>eco</span>
+                  <span style={{ color: "#1B5147", fontSize: "4rem", fontWeight:600 }}>global</span>
                 </div>
               </Nav.Link>
             </Nav.Item>

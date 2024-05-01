@@ -47,7 +47,7 @@ export const Description = () => {
       {/* Mision */}
       <div>
         <Row>
-        <Col>
+        <Col xs="12" md="6">
           <Image fluid src={Paneles} />
           </Col>
           <Col><br /> <br />
@@ -67,7 +67,7 @@ export const Description = () => {
           
           
           <Col xs="12" md="6" >
-          <p style={{fontSize:"1.2rem", paddingTop:10}}>
+          <p style={{fontSize:"1.2vrem", paddingTop:10}}>
           <h3>Enfoque</h3>
           <hr />
               {" "}
