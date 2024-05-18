@@ -7,10 +7,9 @@ export const Footer = () => {
           <Container >
           <Nav className="m-auto">
             <Nav.Item>
-            <span>Diseño &copy; 2024 Mariana Santillan</span>
-              {/* <Nav.Link href="https://www.instagram.com/emilyestuvoaqui/" target="_blank">
+              <Nav.Link href="https://www.instagram.com/emilyestuvoaqui/" target="_blank">
                 <span>Diseño &copy; 2024 Mariana Santillan</span>
-              </Nav.Link> */}
+              </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
