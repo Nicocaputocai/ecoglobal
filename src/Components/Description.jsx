@@ -68,7 +68,7 @@ export const Description = () => {
             <Image fluid src={Dados}/>
           </Col>
           <Col xs="12" md="6" >
-          <p style={{fontSize:"1.2vrem", paddingTop:10}}>
+          <p style={{fontSize:"1.21rem", paddingTop:10}}>
           <h3>Enfoque</h3>
           <hr />
               {" "}
