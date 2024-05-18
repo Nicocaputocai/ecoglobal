@@ -5,7 +5,7 @@ export const Header = () => {
     return (
       <>
         <Container fluid style={{ position: "sticky", top: 0, zIndex: 1000, backgroundColor: "white" }}>
-          <Nav className="justify-content-start" activeKey="/home">
+          <Nav  className="justify-content-end" activeKey="/home">
             <Nav.Item>
               <Nav.Link eventKey="disabled" disabled>
                 <div style={{ marginBottom: "0.1rem" }}>

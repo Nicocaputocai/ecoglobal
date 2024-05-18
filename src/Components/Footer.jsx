@@ -1,20 +1,33 @@
 import React from 'react'
-import { Container, Nav } from 'react-bootstrap'
+import { Container, Nav, Navbar } from 'react-bootstrap'
 
 export const Footer = () => {
   return (
-    <Container fluid>
-<Nav defaultActiveKey="/home" as="ul">
-      <Nav.Item as="li">
-        <Nav.Link href="/home">Active</Nav.Link>
-      </Nav.Item>
-      <Nav.Item as="li">
-        <Nav.Link eventKey="link-1">Link</Nav.Link>
-      </Nav.Item>
-      <Nav.Item as="li">
-        <Nav.Link eventKey="link-2">Link</Nav.Link>
-      </Nav.Item>
-    </Nav>
-    </Container>
+<Navbar bg="light" variant="light">
+          <Container >
+          <Nav className="m-auto">
+            <Nav.Item>
+            <span>Diseño &copy; 2024 Mariana Santillan</span>
+              {/* <Nav.Link href="https://www.instagram.com/emilyestuvoaqui/" target="_blank">
+                <span>Diseño &copy; 2024 Mariana Santillan</span>
+              </Nav.Link> */}
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link>
+                |
+              </Nav.Link>
+            </Nav.Item>
+            
+            <Nav.Item>
+              <Nav.Link href="https://www.divisioncode.net.ar/" target="_blank">
+
+                <span>Desarrollo &copy; 2024 The Division Code</span>
+              </Nav.Link>
+            </Nav.Item>
+            </Nav>
+          </Container>
+
+        </Navbar>
   )
 }

@@ -14,7 +14,9 @@ export const Description = () => {
         
         <div>
           <Row>
-           
+          <Col xs="12" md="5">
+              <Image src={Logo} fluid></Image>
+            </Col>
             <Col xs="12" md="7">
               <p
                 className="main-text gris"
@@ -37,9 +39,7 @@ export const Description = () => {
                 climático y la promoción del desarrollo sostenible.
               </p>
             </Col>
-            <Col xs="12" md="5">
-              <Image src={Logo} fluid></Image>
-            </Col>
+
           </Row>
         </div>
       </div>
@@ -47,9 +47,7 @@ export const Description = () => {
       {/* Mision */}
       <div>
         <Row>
-        <Col xs="12" md="6">
-          <Image fluid src={Paneles} />
-          </Col>
+       
           <Col><br /> <br />
           <p style={{fontSize:"1.3rem"}}>
           <h2 className="verdeIntermedio">Misión</h2> <hr />
@@ -57,15 +55,18 @@ export const Description = () => {
           </p>
 
           </Col>
-          
+           <Col xs="12" md="6">
+          <Image fluid src={Paneles} />
+          </Col>
         </Row>
       </div>
       <br />
       {/* enfoque */}
       <div >
         <Row>
-          
-          
+        <Col xs="12" md="6">
+            <Image fluid src={Dados}/>
+          </Col>
           <Col xs="12" md="6" >
           <p style={{fontSize:"1.2vrem", paddingTop:10}}>
           <h3>Enfoque</h3>
@@ -74,9 +75,7 @@ export const Description = () => {
               Para cumplir con nuestra visión, desarrollamos una estrategia de enfoque público + privado. Asesoramos a empresas en el diseño e implementación de proyectos, facilitando el acceso a programas de financiamiento e instrumentos financieros para la transición hacia prácticas sustentables que les permitan participar en los mercados voluntarios y regulados derivados del comercio de emisiones y remociones de gases de efecto invernadero (GEI). Además, asistimos a gobiernos en el diseño de políticas públicas y programas para cumplir con las metas asumidas por los Estados Nacionales en el marco de la Convención Marco de las Naciones Unidas sobre el Cambio Climático, el Acuerdo de París y la Agenda de Desarrollo Sostenible 2030.
             </p>
           </Col>
-          <Col xs="12" md="6">
-            <Image fluid src={Dados}/>
-          </Col>
+
         </Row>
       </div> 
       <br />

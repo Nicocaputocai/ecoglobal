@@ -4,7 +4,7 @@ import Banner2 from "../assets/Banner.png"
 
 export const Banner = () => {
   return (
-    <div style={{ width: "100vw", height: "70vh", marginBottom: "20px" }}>
+    <div style={{ width: "99.1vw", marginBottom: "20px" }}>
     <Image src={Banner2} alt="Banner" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
   </div>
   );

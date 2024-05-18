@@ -10,13 +10,13 @@ function App() {
 
 
   return (
-    <> 
+    <div style={{maxWidth:"100vw"}}> 
      <Header />
      <Description />
      <Banner />
      <Services />
      <Footer/>
-    </>
+    </div>
   )
 }
 
