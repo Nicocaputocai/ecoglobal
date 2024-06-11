@@ -9,7 +9,6 @@ import Paneles from "../assets/3d-solar-pannels-project-energy-saving.jpg"
 export const Description = () => {
   return (
     <Container>
-      <br />
       <div className="text-container">
         
         <div>

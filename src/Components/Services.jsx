@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import Empresas from "../assets/huella-de-carbono-que-es-768x447.jpg";
-import Gobiernos from "../assets/sustainable-development-goals-still-life2.jpg";
-import Educacion from "../assets/arbolitos.jpg";
+import Empresas from "../assets/S3.jpg";
+import Gobiernos from "../assets/S1.jpg";
+import Educacion from "../assets/S2.jpg";
 
 export const Services = () => {
   return (
